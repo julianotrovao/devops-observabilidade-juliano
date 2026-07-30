@@ -1,3 +1,4 @@
+
 # move-tech-cloud-application-comp-5
 
 Ponto de partida da **Competência 5 — Observabilidade e Resiliência de Sistemas**.
