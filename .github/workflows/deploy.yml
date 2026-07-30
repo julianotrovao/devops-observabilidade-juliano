@@ -1,12 +1,13 @@
 name: Deploy
 
 on:
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 env:
   REGISTRY: container-registry.br-se1.magalu.cloud
   IMAGE_NAME: cloud-application
-
 jobs:
   test:
     runs-on: ubuntu-latest
